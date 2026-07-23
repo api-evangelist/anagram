@@ -1,22 +1,68 @@
 aid: anagram
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anagram.png
 name: Anagram
-description: 'Anagram is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. Sector: defense-government. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Anagram (operated by Enigma Analytics, Inc.) is a security-awareness and
+  human-risk training platform for enterprises, positioned in the defense and government
+  sector and backed by General Catalyst. The product replaces check-the-box compliance
+  training with engaging, gamified experiences proven to change risky behavior: role- and
+  geography-adaptive phishing simulations (Smart Phishing), developer-designed secure-coding
+  challenges for engineering teams, and a real-time AI coaching layer (Anagram Agent).
+  Anagram is not currently a public API provider — this profile captures the company
+  identity, product surface, and public web properties for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/anagram/refs/heads/main/apis.yml
 x-type: company
 x-source: general-catalyst-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-legal-entity: Enigma Analytics, Inc.
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Defense Government
+- Security
+- Security Awareness Training
+- Human Risk Management
+- Phishing Simulation
+- Secure Coding
+- Cybersecurity
 apis: []
+common:
+- type: DomainSecurity
+  url: security/anagram-domain-security.yml
+- type: Website
+  url: https://www.anagramsecurity.com/
+- type: Blog
+  url: https://www.anagramsecurity.com/insights
+- type: Login
+  url: https://app.anagramsecurity.com/login
+- type: Support
+  url: mailto:support@anagramsecurity.com
+- type: TermsOfService
+  url: https://www.anagramsecurity.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.anagramsecurity.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/anagramsecurity/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
